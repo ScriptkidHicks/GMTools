@@ -7,7 +7,7 @@ const CenterColumnPage = styled.div`
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background-color: #756ab6;
+  background-color: var(--main-background);
 `;
 
 export { CenterColumnPage };

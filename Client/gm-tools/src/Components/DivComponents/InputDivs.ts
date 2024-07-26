@@ -8,8 +8,15 @@ const RoomSelectorDiv = styled.div`
   padding: 10px;
   gap: 10px;
 
-  border: 2px solid white;
-  background-color: #ac87c5;
+  border: 2px solid var(--secondary-foreground);
+  background-color: var(--secondary-background);
 `;
 
-export { RoomSelectorDiv };
+const LateralButtonFlow = styled.div`
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: space-evenly;
+`;
+
+export { RoomSelectorDiv, LateralButtonFlow };
