@@ -8,7 +8,7 @@ const BasicButton = styled.button`
   font-size: 15px;
   font-weight: bold;
 
-  transition: ease all 400ms;
+  transition: ease all 100ms;
 
   &:hover {
     background-color: var(--secondary-foreground);
